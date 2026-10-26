@@ -8,7 +8,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-        repoURL: https://github.com/amine7536/akpe-gitops.git
+        repoURL: https://github.com/doublurehq/demo-gitops.git
         revision: HEAD
         directories:
           - path: "previews/*"
@@ -20,7 +20,7 @@ spec:
     spec:
       project: previews
       sources:
-        - repoURL: https://github.com/amine7536/akpe-gitops.git
+        - repoURL: https://github.com/doublurehq/demo-gitops.git
           targetRevision: HEAD
           ref: values
         - repoURL: oci://ghcr.io/amine7536/akpe-charts/preview-env
