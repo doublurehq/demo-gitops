@@ -23,8 +23,8 @@ spec:
         - repoURL: https://github.com/doublurehq/demo-gitops.git
           targetRevision: HEAD
           ref: values
-        - repoURL: oci://ghcr.io/amine7536/akpe-charts/preview-env
-          targetRevision: 0.2.0
+        - repoURL: oci://ghcr.io/doublurehq/charts/preview-env
+          targetRevision: 0.1.0
           path: "."
           helm:
             releaseName: "{{ .path.basename }}"
