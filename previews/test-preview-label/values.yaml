@@ -1,0 +1,14 @@
+services:
+  - name: backend-1
+    commitSha: dd86318560a5b5de4394ce7c94d4a32157eadda9
+    metadata:
+      pr-author: amine7536
+      pr-url: https://github.com/doublurehq/demo-backend-1/pull/16
+      pr-number: "16"
+      created-at: "2026-10-28T14:45:08Z"
+      updated-at: "2026-10-28T14:45:08Z"
+      vcs.ref.name: test/preview-label
+      cicd.pipeline.run.url: ""
+  - name: backend-2
+  - name: front
+  - name: postgres
