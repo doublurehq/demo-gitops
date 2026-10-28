@@ -11,4 +11,13 @@ services:
       cicd.pipeline.run.url: ""
   - name: backend-2
   - name: front
+    commitSha: 61558957b1a1ae209c3ff2222bb62c1decc3be47
+    metadata:
+      pr-author: amine7536
+      pr-url: https://github.com/doublurehq/demo-front/pull/7
+      pr-number: "7"
+      created-at: "2026-10-28T17:23:34Z"
+      updated-at: "2026-10-28T17:23:34Z"
+      vcs.ref.name: qa-shared-b
+      cicd.pipeline.run.url: ""
   - name: postgres
