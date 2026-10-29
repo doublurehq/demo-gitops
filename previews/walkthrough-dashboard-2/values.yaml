@@ -1,0 +1,17 @@
+services:
+  - name: backend-1
+    commitSha: b8a21f465879bde2300731992c65d5b892194b30
+    host: backend-1-walkthrough-dashboard-2.127.0.0.1.nip.io
+    metadata:
+      pr-author: amine7536
+      pr-url: https://github.com/doublurehq/demo-backend-1/pull/24
+      pr-number: "24"
+      created-at: "2026-10-29T17:26:19Z"
+      updated-at: "2026-10-29T17:26:19Z"
+      vcs.ref.name: walkthrough/dashboard-2
+      cicd.pipeline.run.url: ""
+  - name: backend-2
+    host: backend-2-walkthrough-dashboard-2.127.0.0.1.nip.io
+  - name: front
+    host: front-walkthrough-dashboard-2.127.0.0.1.nip.io
+  - name: postgres
