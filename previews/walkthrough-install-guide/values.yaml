@@ -1,0 +1,17 @@
+services:
+  - name: backend-1
+    commitSha: 9f8e1e2ca54cedd0aab4295dd1e3912140a6c8ec
+    host: backend-1-walkthrough-install-guide.127.0.0.1.nip.io
+    metadata:
+      pr-author: amine7536
+      pr-url: https://github.com/doublurehq/demo-backend-1/pull/20
+      pr-number: "20"
+      created-at: "2026-10-29T14:13:25Z"
+      updated-at: "2026-10-29T14:13:25Z"
+      vcs.ref.name: walkthrough/install-guide
+      cicd.pipeline.run.url: ""
+  - name: backend-2
+    host: backend-2-walkthrough-install-guide.127.0.0.1.nip.io
+  - name: front
+    host: front-walkthrough-install-guide.127.0.0.1.nip.io
+  - name: postgres
