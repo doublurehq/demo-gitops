@@ -11,7 +11,3 @@ preview:
     front: {}
     backend-1: {}
     backend-2: {}
-
-serviceCharts:
-  backend-2:
-    brnch: x
