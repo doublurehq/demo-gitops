@@ -1,0 +1,17 @@
+services:
+  - name: backend-1
+    commitSha: ff84036d4bbecc280a83495b7eaab9b1d5721e9e
+    host: backend-1-walkthrough-spinup.127.0.0.1.nip.io
+    metadata:
+      pr-author: amine7536
+      pr-url: https://github.com/doublurehq/demo-backend-1/pull/21
+      pr-number: "21"
+      created-at: "2026-10-29T16:20:43Z"
+      updated-at: "2026-10-29T16:20:43Z"
+      vcs.ref.name: walkthrough/spinup
+      cicd.pipeline.run.url: ""
+  - name: backend-2
+    host: backend-2-walkthrough-spinup.127.0.0.1.nip.io
+  - name: front
+    host: front-walkthrough-spinup.127.0.0.1.nip.io
+  - name: postgres
