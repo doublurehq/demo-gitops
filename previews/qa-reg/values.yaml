@@ -1,0 +1,17 @@
+services:
+  - name: backend-1
+    commitSha: 3319f5d365a49372a6865da27f3fc73a679f455d
+    host: backend-1-qa-reg.127.0.0.1.nip.io
+    metadata:
+      pr-author: amine7536
+      pr-url: https://github.com/doublurehq/demo-backend-1/pull/19
+      pr-number: "19"
+      created-at: "2026-10-29T09:43:52Z"
+      updated-at: "2026-10-29T09:43:52Z"
+      vcs.ref.name: qa-reg
+      cicd.pipeline.run.url: ""
+  - name: backend-2
+    host: backend-2-qa-reg.127.0.0.1.nip.io
+  - name: front
+    host: front-qa-reg.127.0.0.1.nip.io
+  - name: postgres
